@@ -1,0 +1,21 @@
+ git -v : donner la version 
+1) mkdir learn_git : create folder .
+2) cd learn_git : change directory .
+3) touch third.txt
+4) git init 
+5) git add third.txt
+6) git commit -m "adding third.txt file"
+7) git log (tracking actions)
+8) touch fourth.txt
+9) git add fourth.txt 
+10) git commit -m "comment"
+11) git rm third.txt
+12) git add .
+13) git commit -m "removing third.txt"
+14) essentials :
+git init 
+git add . 
+git commit -m "your comment"
+git branch -m "branch name"
+git remote add origin https://github.com/ahmeddba/Checkpoint-Git.git
+git push  origin master (if no branch is created else ranch name instead of master)
